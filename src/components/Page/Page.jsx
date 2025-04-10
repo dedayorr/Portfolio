@@ -134,48 +134,76 @@ function Page() {
             <img
               className="w-[64px] h-[64px]"
               src="./javascript.png"
-              alt="js"
+              alt="Javascript"
             />
             <p>Javascript</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./react.png" alt="js" />
+            <img className="w-[64px] h-[64px]" src="./react.png" alt="React" />
             <p>React</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
             <img
               className="w-[64px] h-[64px]"
               src="./typescript.png"
-              alt="js"
+              alt="Typescript"
             />
             <p>Typescript</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./nodejs.png" alt="js" />
-            <p>Node.js</p>
+            <img
+              className="w-[64px] h-[64px]"
+              src="./vite.js.png"
+              alt="Vite.js"
+            />
+            <p>Vite</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./nextjs.png" alt="js" />
+            <img
+              className="w-[64px] h-[64px]"
+              src="./nextjs.png"
+              alt="Nextjs"
+            />
             <p>Next.js</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./express.png" alt="js" />
+            <img
+              className="w-[64px] h-[64px]"
+              src="./nodejs.png"
+              alt="Nodejs"
+            />
+            <p>Node.js</p>
+          </div>
+          <div className="items-center flex flex-col justify-center gap-3">
+            <img
+              className="w-[64px] h-[64px]"
+              src="./express.png"
+              alt="Expressjs"
+            />
             <p>Express.js</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./mongodb.png" alt="js" />
+            <img
+              className="w-[64px] h-[64px]"
+              src="./mongodb.png"
+              alt="MongoDb"
+            />
             <p>MongoDB</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./tailwind.png" alt="js" />
+            <img
+              className="w-[64px] h-[64px]"
+              src="./tailwind.png"
+              alt="Tailwind"
+            />
             <p>Tailwindcss</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./git.png" alt="js" />
+            <img className="w-[64px] h-[64px]" src="./git.png" alt="Git" />
             <p>Git</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
-            <img className="w-[64px] h-[64px]" src="./figma.png" alt="js" />
+            <img className="w-[64px] h-[64px]" src="./figma.png" alt="Figma" />
             <p>Figma</p>
           </div>
         </div>
@@ -195,8 +223,49 @@ function Page() {
         </p>
         <div className="lg:w-[60%] lg:mx-auto ">
           <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
+            <p className="font-bold text-[25px] text-[#14A800]">Rentree</p>
+            <p className="font- text-[18px] font-bold">Contract</p>
+            <p className="italic font-thin text-[14px]">
+              Sept 2024 - March 2025
+            </p>
+            <p className="font- text-[18px] font-semibold">
+              Front-end Engineer
+            </p>
+            <ul className="list-disc flex flex-col gap-[10px]">
+              <li className="text-[14px]">
+                Developed complex UI interactions including tabbed navigation
+                with dynamic borders.
+              </li>
+              <li className="text-[14px]">
+                Worked on a multi-step form flow with contextual navigation,
+                enabling smooth progression through components like Basic Info,
+                Property Setup, Photos, Pricing, and Legal Info.
+              </li>
+              <li className="text-[14px]">
+                Integrated Redux Toolkit (RTK) for global state management with
+                persistence, improving scalability and reducing boilerplate
+                compared to Context API.
+              </li>
+              <li className="text-[14px]">
+                Created reusable components and layout templates with
+                accessibility and responsiveness in mind, improving development
+                speed and UI consistency.
+              </li>
+              <li className="text-[14px]">
+                Collaborate with the backend developer to create Functional and
+                Responsive web projects and consume necessary API
+              </li>
+              <li className="text-[14px]">
+                Contributed to a shared GitHub organization repository,
+                practicing clean code principles, version control with Git, and
+                pull request workflows.
+              </li>
+            </ul>
+          </div>
+          <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
             <p className="font-bold text-[25px] text-[#14A800]">AremxyPlug</p>
-            <p className="font-thin text-[14px]">
+            <p className="font- text-[18px] font-bold">Remote</p>
+            <p className="italic font-thin text-[14px]">
               June 12 2023 - January 10 2024
             </p>
             <p className="font- text-[18px] font-semibold">
@@ -234,7 +303,9 @@ function Page() {
             <p className="font-bold text-[25px] text-[#14A800]">
               ITSkillsCenter
             </p>
-            <p className="font-thin text-[14px]">November 22 2020 - May 2023</p>
+            <p className="italic font-thin text-[14px]">
+              November 22 2020 - May 2023
+            </p>
             <p className="font- text-[18px] font-semibold">
               Software Developer
             </p>
@@ -271,6 +342,62 @@ function Page() {
           Some of the noteworthy projects I have built:
         </p>
         <div className="lg:mx-[5%] ">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+            <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
+              <a
+                href="https://www.therentree.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <img
+                  className="rounded-[10px] lg:rounded-[20px]"
+                  src="./front-page.png"
+                  alt="project-one"
+                />
+              </a>
+            </div>
+            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                RENTREE
+              </p>{" "}
+              <p className="font-light text-justify lg:text-[20px]">
+                Rentree is a modern booking platform designed to streamline
+                short-term rentals and cruise bookings. It features two user
+                roles: Buyers, who can browse listings, make reservations, and
+                complete secure payments; and Sellers, who can upload and manage
+                their properties—whether apartments, hotels, or boat cruises.
+                The platform also includes a Marketplace section, allowing users
+                to advertise various products such as food, gadgets, fashion
+                items, and more. Rentree offers a seamless experience for both
+                travelers and business owners in the hospitality space.
+              </p>
+              <div className="flex flex-wrap gap-[15px]">
+                {" "}
+                <p className=" text-textColor bg-[#374151] px-1 h-[28px] rounded-[12px] flex justify-center items-center">
+                  React + Typescript + Vite
+                </p>
+                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                  Tailwind css
+                </p>
+                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                  Ant Design
+                </p>
+                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                  Redux Toolkit
+                </p>
+              </div>
+              <a
+                href=" https://gailymaids.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline flex items-center gap-[10px] justify-center"
+              >
+                <CiLink className="text-3xl" />
+                <p>Link</p>{" "}
+              </a>
+            </div>
+          </div>
           <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
               <a href="https://gailymaids.com" target="_blank" rel="noreferrer">
@@ -278,7 +405,7 @@ function Page() {
                 <img
                   className="rounded-[10px] lg:rounded-[20px]"
                   src="./gailymaids.png"
-                  alt="project-one"
+                  alt="project-two"
                 />
               </a>
             </div>
@@ -300,7 +427,7 @@ function Page() {
                   Next.Js
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Tailwindcss
+                  Tailwind css
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
                   EmailJs
@@ -330,7 +457,7 @@ function Page() {
                 <img
                   className="rounded-[10px]"
                   src="./aremxyplug.png"
-                  alt="project-one"
+                  alt="project-three"
                 />
               </a>
             </div>
@@ -350,7 +477,7 @@ function Page() {
                   React
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Tailwindcss
+                  Tailwind css
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
                   Context Api
@@ -380,7 +507,7 @@ function Page() {
                 <img
                   className="rounded-[10px]"
                   src="./blogify.png"
-                  alt="project-one"
+                  alt="project-four"
                 />
               </a>
             </div>
@@ -398,7 +525,7 @@ function Page() {
                   React
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Tailwindcss
+                  Tailwind css
                 </p>
               </div>
               <a
@@ -425,13 +552,13 @@ function Page() {
                 <img
                   className="rounded-[10px]"
                   src="./rentree.png"
-                  alt="project-one"
+                  alt="project-five"
                 />
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
               <p className="font-extrabold text-[18px] lg:text-[24px]">
-                Rentree
+                Rentree Advertising
               </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 A landing page conveying information about Rentree. Rentree is
@@ -471,7 +598,7 @@ function Page() {
                 <img
                   className="rounded-[10px]"
                   src="./d-gadget.png"
-                  alt="project-one"
+                  alt="project-five"
                 />
               </a>
             </div>
@@ -524,7 +651,7 @@ function Page() {
                 <img
                   className="rounded-[10px]"
                   src="./purple.png"
-                  alt="project-one"
+                  alt="project-six"
                 />
               </a>
             </div>
@@ -571,7 +698,7 @@ function Page() {
                 <img
                   className="rounded-[10px]"
                   src="./smarthubinvest.png"
-                  alt="project-one"
+                  alt="project-eight"
                 />
               </a>
             </div>
