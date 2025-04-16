@@ -346,7 +346,7 @@ function Page() {
           <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
               <a
-                href="https://www.therentree.com/"
+                href="https://www.therentree.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -389,7 +389,7 @@ function Page() {
                 </p>
               </div>
               <a
-                href=" https://gailymaids.com"
+                href="https://www.therentree.com"
                 target="_blank"
                 rel="noreferrer"
                 className="underline flex items-center gap-[10px] justify-center"
@@ -401,11 +401,7 @@ function Page() {
           </div>
           <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
-              <a
-                href="https://www.therentree.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://gailymaids.com" target="_blank" rel="noreferrer">
                 {" "}
                 <img
                   className="rounded-[10px] lg:rounded-[20px]"
