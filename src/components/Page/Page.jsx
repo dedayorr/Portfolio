@@ -401,7 +401,11 @@ function Page() {
           </div>
           <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
-              <a href="https://gailymaids.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.therentree.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <img
                   className="rounded-[10px] lg:rounded-[20px]"
