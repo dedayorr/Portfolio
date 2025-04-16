@@ -262,6 +262,7 @@ function Page() {
               </li>
             </ul>
           </div>
+          <br />
           <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
             <p className="font-bold text-[25px] text-[#14A800]">AremxyPlug</p>
             <p className="font- text-[18px] font-bold">Remote</p>
