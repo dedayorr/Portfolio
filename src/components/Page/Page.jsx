@@ -199,6 +199,14 @@ function Page() {
             <p>Tailwindcss</p>
           </div>
           <div className="items-center flex flex-col justify-center gap-3">
+            <img
+              className="w-[64px] h-[64px]"
+              src="./chakra.png"
+              alt="Chakra"
+            />
+            <p>Chakra UI</p>
+          </div>
+          <div className="items-center flex flex-col justify-center gap-3">
             <img className="w-[64px] h-[64px]" src="./git.png" alt="Git" />
             <p>Git</p>
           </div>
@@ -446,8 +454,59 @@ function Page() {
             </div>
           </div>
 
-          <br />
           <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+            <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
+              <a
+                href="https://student-info-management-system-ioz7.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <img
+                  className="rounded-[10px] lg:rounded-[20px]"
+                  src="./project.png"
+                  alt="project"
+                />
+              </a>
+            </div>
+            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                Student Info Management System
+              </p>{" "}
+              <p className="font-light text-justify lg:text-[20px]">
+                A modern web application built with Next.js and TypeScript for
+                managing student information, including student records, search
+                functionality, and data management.
+              </p>
+              <div className="flex flex-wrap gap-[15px]">
+                {" "}
+                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                  Next.Js
+                </p>
+                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                  TypeScript
+                </p>
+                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                  Tailwind css
+                </p>
+                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                  Chakra UI
+                </p>
+              </div>
+              <a
+                href="https://student-info-management-system-ioz7.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline flex items-center gap-[10px] justify-center"
+              >
+                <CiLink className="text-3xl" />
+                <p>Link</p>{" "}
+              </a>
+            </div>
+          </div>
+
+          <br />
+          <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://multi-enterprise.vercel.app/"
@@ -497,7 +556,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://prismatic-entremet-275fdf.netlify.app/"
@@ -542,7 +601,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+          <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://renttreeapp.com"
@@ -588,7 +647,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex ">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://d-gadgets-store.netlify.app/"
@@ -641,7 +700,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+          <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://purple-web.netlify.app/"
@@ -688,7 +747,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://smart-invest-hub.netlify.app/"
