@@ -454,7 +454,7 @@ function Page() {
             </div>
           </div>
 
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+          {/* <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
               <a
                 href="https://student-info-management-system-ioz7.vercel.app/"
@@ -503,10 +503,10 @@ function Page() {
                 <p>Link</p>{" "}
               </a>
             </div>
-          </div>
+          </div> */}
 
           <br />
-          <div className="bg-[#1F2937] lg:flex ">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://multi-enterprise.vercel.app/"
@@ -556,7 +556,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+          <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://prismatic-entremet-275fdf.netlify.app/"
@@ -601,7 +601,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex ">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://renttreeapp.com"
@@ -647,7 +647,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+          <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://d-gadgets-store.netlify.app/"
@@ -700,7 +700,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex ">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://purple-web.netlify.app/"
@@ -747,7 +747,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+          <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://smart-invest-hub.netlify.app/"
