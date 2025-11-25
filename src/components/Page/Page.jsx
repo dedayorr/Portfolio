@@ -454,17 +454,17 @@ function Page() {
             </div>
           </div>
 
-          {/* <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
               <a
-                href="https://student-info-management-system-ioz7.vercel.app/"
+                href="https://www.sotabrealestate.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 {" "}
                 <img
                   className="rounded-[10px] lg:rounded-[20px]"
-                  src="./project.png"
+                  src="./project_2.png"
                   alt="project"
                 />
               </a>
@@ -474,9 +474,7 @@ function Page() {
                 Student Info Management System
               </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
-                A modern web application built with Next.js and TypeScript for
-                managing student information, including student records, search
-                functionality, and data management.
+             A Nigerian-based real estate and energy solutions company redefining development through innovation, sustainability, and community driven impact.
               </p>
               <div className="flex flex-wrap gap-[15px]">
                 {" "}
@@ -494,7 +492,7 @@ function Page() {
                 </p>
               </div>
               <a
-                href="https://student-info-management-system-ioz7.vercel.app/"
+                href="https://www.sotabrealestate.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="underline flex items-center gap-[10px] justify-center"
@@ -503,10 +501,10 @@ function Page() {
                 <p>Link</p>{" "}
               </a>
             </div>
-          </div> */}
+          </div> 
 
           <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse ">
+          <div className="bg-[#1F2937] lg:flex lg:flex-row ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://multi-enterprise.vercel.app/"
@@ -556,7 +554,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] lg:flex ">
+          {/* <div className="bg-[#1F2937] lg:flex-row-reverse ">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://prismatic-entremet-275fdf.netlify.app/"
@@ -598,7 +596,7 @@ function Page() {
                 <p>Link</p>{" "}
               </a>
             </div>
-          </div>
+          </div> */}
 
           <br />
           <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
